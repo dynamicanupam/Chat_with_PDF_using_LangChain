@@ -15,6 +15,10 @@ https://github.com/user-attachments/assets/02a035d8-6efa-468f-bf61-656660e68c80
 - **Question Answering**: Enables users to query PDF content and receive accurate, context-aware responses.
 - **Real-Time Interaction**: Offers a seamless chat interface for engaging with document content.
 
+## System Design
+
+![Chat-with-Multiple-PDF-documents-using-LangChain-and-Google-Gemini-Pro](https://github.com/user-attachments/assets/d3b47ca0-2ab2-4e29-bede-6bfb152f2d53)
+
 ## Tools and Libraries Used
 
 - **Streamlit**: Used for building the web application interface, making it easy to create interactive elements and display information to the user.
@@ -38,9 +42,3 @@ Run the application:
      streamlit run app.py
 
 Upload your PDF documents through the interface, and start querying them using the provided chat interface.
-
-## How It Works
-- **Document Upload**: Allows users to upload multiple PDF files via the web interface.
-- **Text Extraction**: Utilizes PyPDF2 to extract text from each PDF.
-- **Query Processing**: Employs LangChain and Google Gemini Pro to interpret and handle user queries.
-- **Answer Generation**: Delivers accurate responses and summaries based on the content of the uploaded PDFs.
